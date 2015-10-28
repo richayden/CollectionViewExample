@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C708C461BE04062007C930F /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C708C451BE04062007C930F /* CustomCollectionViewCell.swift */; };
 		C1D147681BE03D5900CEF155 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D147671BE03D5900CEF155 /* AppDelegate.swift */; };
 		C1D1476A1BE03D5900CEF155 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D147691BE03D5900CEF155 /* ViewController.swift */; };
 		C1D1476D1BE03D5900CEF155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D1476B1BE03D5900CEF155 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C708C451BE04062007C930F /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		C1D147641BE03D5900CEF155 /* CollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D147671BE03D5900CEF155 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1D147691BE03D5900CEF155 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				C1D147671BE03D5900CEF155 /* AppDelegate.swift */,
 				C1D147691BE03D5900CEF155 /* ViewController.swift */,
+				9C708C451BE04062007C930F /* CustomCollectionViewCell.swift */,
 				C1D1476B1BE03D5900CEF155 /* Main.storyboard */,
 				C1D1476E1BE03D5900CEF155 /* Assets.xcassets */,
 				C1D147701BE03D5900CEF155 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1D1476A1BE03D5900CEF155 /* ViewController.swift in Sources */,
+				9C708C461BE04062007C930F /* CustomCollectionViewCell.swift in Sources */,
 				C1D147681BE03D5900CEF155 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 				C1D147781BE03D5900CEF155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
